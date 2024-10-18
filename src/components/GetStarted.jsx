@@ -10,7 +10,13 @@ const GetStarted = () => {
           <p className="font-poppins font-medium text-[18px] leading-[23px]">
             <span className="text-gradient">Get</span>
           </p>
-          <img src={arrowUp} onerror={`this.onerror=null;this.src=${arrowUp}`} className="w-[23px] h-[23px] object-contain" />
+          <img src={arrowUp} 
+               onError={(e) => {
+               e.target.onerror = null;
+               e.target.src = arrowUp; 
+               }} 
+               className="w-[23px] h-[23px] object-contain" 
+          />
         </div>
         <p className="font-poppins font-medium text-[18px] leading-[23px]">
           <span className="text-gradient">Started</span>
