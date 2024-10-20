@@ -27,7 +27,11 @@ const Business = () => {
 
         <Button  styles='mt-10'/>
       </div>
-      
+      <div className={`${layout.sectionImg} flex-col`}>
+        {features.map((feature, index) => (
+          <Feature key={feature.id} {...feature} />
+        ))}
+      </div>
     </section>
   )
 }
