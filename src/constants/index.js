@@ -106,7 +106,7 @@ export const footerLinks = [
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "https://github.com/11sacha",
       },
       {
         name: "Terms & Services",
@@ -119,7 +119,7 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "https://github.com/11sacha",
       },
       {
         name: "Partners",
@@ -144,7 +144,7 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://github.com/11sacha",
       },
       {
         name: "Become a Partner",
@@ -173,7 +173,7 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/sacha-guimarey-6487681a2/",
   },
 ];
 
